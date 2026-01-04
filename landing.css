@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #222;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background-color: #1dad00;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 15px;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
